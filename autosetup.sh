@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Welcome to my macbook setup script!
 # Be prepared to turn your macbook
@@ -122,11 +122,12 @@ npm update -g npm
 npm install -g grunt-cli
 brew cask install webstorm
 
-
 # Test tools
 brew cask install mocksmtp
 
-
+# Cloud foundry
+brew tap cloudfoundry/tap
+brew install cf-cli
 
 # Games
 brew cask install chessx

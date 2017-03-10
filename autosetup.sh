@@ -99,6 +99,10 @@ brew cask install intellij-idea-ce
 # Cotline development
 brew install kotlin
 
+# Scala development
+brew install scala
+brew cask install scala-ide
+
 # Go dedvelopment 
 if [ ! -d "$HOME/Go/" ]; then
   mkdir "$HOME/Go"
@@ -129,8 +133,9 @@ brew cask install mocksmtp
 brew tap cloudfoundry/tap
 brew install cf-cli
 
-# Games
+# Games & Fun
 brew cask install chessx
+brew cask install scratch
 
 # Redis Database
 brew cask install rdm

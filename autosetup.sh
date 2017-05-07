@@ -79,6 +79,7 @@ brew cask install opera
 # Common developer tools
 brew cask install sourcetree
 brew cask install sublime
+brew cask install macdown
 
 
 # Java development
@@ -139,6 +140,7 @@ brew cask install scratch
 
 # Redis Database
 brew cask install rdm
+
 
 
 

@@ -150,7 +150,8 @@ brew tap homebrew/science
 # install Octave with dependencies
 # the update/upgrade command below could take a while
 brew update && brew upgrade
-brew install gfortran
+brew install gcc
+brew cask install xquartz
 
 # install octave
 brew install octave

@@ -36,6 +36,16 @@
     export JBOSS_HOME=/usr/local/opt/jboss-as/libexec
     export PATH=${PATH}:${JBOSS_HOME}/bin
 
+#   Open SSL environment
+#   -----------------------------------------
+
+#   If you need to have openSSL first in your PATH
+#   export PATH="/usr/local/opt/openssl/bin:$PATH"
+
+#   For compilers to find openSSL  you may need to set:
+#   LDFLAGS:  -L/usr/local/opt/openssl/lib
+#   CPPFLAGS: -I/usr/local/opt/openssl/include
+
 
 #   Set Paths
 #   ------------------------------------------------------------

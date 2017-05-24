@@ -141,6 +141,26 @@ brew cask install scratch
 # Redis Database
 brew cask install rdm
 
+# Install GO 
+brew install go --cross-compile-common
+
+# tap the science formulae
+brew tap homebrew/science
+
+# install Octave with dependencies
+# the update/upgrade command below could take a while
+brew update && brew upgrade
+brew install gfortran
+
+# install octave
+brew install octave
+
+# install fltk for gnuplot
+brew install fltk
+
+# install gnuplot
+brew install gnuplot
+
 
 
 

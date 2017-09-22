@@ -165,6 +165,8 @@ brew install gnuplot
 # fastlane requires XCode CLI Tools (https://developer.apple.com/download/more/)
 sudo gem install fastlane -NV
 
+# sublime text editor
+brew cask install sublime-text 
 
 
 

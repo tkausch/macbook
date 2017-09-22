@@ -117,8 +117,8 @@ brew install python3
 if [ ! -d "$HOME/Envs/" ]; then
   mkdir "$HOME/Envs"
 fi
-pip install virtualenv
-pip install virtualenvwrapper
+pip2 install virtualenv
+pip2 install virtualenvwrapper
 brew cask install pycharm-ce
 
 # JS Development

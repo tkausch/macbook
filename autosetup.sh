@@ -162,6 +162,9 @@ brew install fltk
 # install gnuplot
 brew install gnuplot
 
+# fastlane requires XCode CLI Tools (https://developer.apple.com/download/more/)
+sudo gem install fastlane -NV
+
 
 
 

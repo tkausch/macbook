@@ -117,8 +117,8 @@ brew install python3
 if [ ! -d "$HOME/Envs/" ]; then
   mkdir "$HOME/Envs"
 fi
-pip install virtualenv
-pip install virtualenvwrapper
+pip2 install virtualenv
+pip2 install virtualenvwrapper
 brew cask install pycharm-ce
 
 # JS Development
@@ -163,6 +163,11 @@ brew install fltk
 # install gnuplot
 brew install gnuplot
 
+# fastlane requires XCode CLI Tools (https://developer.apple.com/download/more/)
+sudo gem install fastlane -NV
+
+# sublime text editor
+brew cask install sublime-text 
 
 
 

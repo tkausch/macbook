@@ -83,6 +83,9 @@ brew install rbenv
 cd ~
 rbenv init
 
+# fastlane requires XCode CLI Tools (https://developer.apple.com/download/more/)
+# sudo gem install fastlane -NV
+
 
 
 

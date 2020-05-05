@@ -64,6 +64,11 @@ brew tap caskroom/cask
 brew cask install google-chrome
 brew cask install firefox
 
+# Common Microsoft tools
+brew cask install microsoft-teams
+brew cask install microsoft-outlook
+brew cask install skype-for-business
+
 # Common dev tools
 brew cask install sourcetree
 brew cask install sublime

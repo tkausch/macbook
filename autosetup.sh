@@ -67,7 +67,10 @@ brew cask install firefox
 # Common Microsoft tools
 brew cask install microsoft-teams
 brew cask install microsoft-outlook
+brew cask install microsoft-word
+brew cask install microsoft-excel
 brew cask install skype-for-business
+brew cask install onedrive
 
 # Common dev tools
 brew cask install sourcetree

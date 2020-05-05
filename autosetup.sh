@@ -60,42 +60,29 @@ brew update
 # Add homebrew casck
 brew tap caskroom/cask
 
-# Install unix tools
-brew install openssl
-brew install libyaml
-
-# Image manimpulsation
-brew cask install gimp
-brew install imagemagick
-
-# Network tools
-brew cask install wireshark
-
 # Common browsers
 brew cask install google-chrome
 brew cask install firefox
-brew cask install opera
 
-# Common developer tools
+# Common dev tools
 brew cask install sourcetree
 brew cask install sublime
-brew cask install macdown
 
+# iOS dev tools
+brew cask install sublime-text 
 
 # Java development
 if [ ! -d "$HOME/Java/" ]; then
   mkdir "$HOME/Java"
 fi
 brew cask install java
-
 brew install gradle
 brew install maven
 brew install ant
 
-brew install tomcat
-brew install jboss-as
-
-brew cask install intellij-idea-ce
+# brew install tomcat
+# brew install jboss-as
+# brew cask install intellij-idea-ce
 
 # Cotline development
 brew install kotlin
@@ -108,12 +95,10 @@ brew cask install scala-ide
 if [ ! -d "$HOME/Go/" ]; then
   mkdir "$HOME/Go"
 fi
-brew install go
+brew install go --cross-compile-common
 
 # Python development
-brew install python
 brew install python3
-
 if [ ! -d "$HOME/Envs/" ]; then
   mkdir "$HOME/Envs"
 fi
@@ -122,13 +107,10 @@ pip2 install virtualenvwrapper
 brew cask install pycharm-ce
 
 # JS Development
-brew install node
-npm update -g npm
-npm install -g grunt-cli
-brew cask install webstorm
-
-# Test tools
-brew cask install mocksmtp
+# brew install node
+# vnpm update -g npm
+# npm install -g grunt-cli
+# brew cask install webstorm
 
 # Cloud foundry
 brew tap cloudfoundry/tap
@@ -139,35 +121,20 @@ brew cask install chessx
 brew cask install scratch
 
 # Redis Database
-brew cask install rdm
-
-# Install GO 
-brew install go --cross-compile-common
+# brew cask install rdm
 
 # tap the science formulae
-brew tap homebrew/science
+# brew tap homebrew/science
 
 # install Octave with dependencies
 # the update/upgrade command below could take a while
-brew update && brew upgrade
-
-brew install gcc
-brew cask install xquartz
-
+# brew update && brew upgrade
+# brew install gcc
+# brew cask install xquartz
 # install octave
-brew install octave
-
-# install fltk for gnuplot
-brew install fltk
-
-# install gnuplot
-brew install gnuplot
-
-# fastlane requires XCode CLI Tools (https://developer.apple.com/download/more/)
-sudo gem install fastlane -NV
-
-# sublime text editor
-brew cask install sublime-text 
+# brew install octave
+# brew install fltk
+# brew install gnuplot
 
 
 
